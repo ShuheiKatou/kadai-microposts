@@ -34,6 +34,9 @@ class MicropostsController extends Controller
         return back();
     }
     
+    /**
+     * 投稿データを削除する
+     */ 
     public function destroy($id)
     {
         $micropost = \App\Micropost::findOrFail($id);

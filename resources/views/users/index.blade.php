@@ -2,5 +2,5 @@
 
 @section('content')
 
-    @include(users.users')
+    @include('users.users')
 @endsection
